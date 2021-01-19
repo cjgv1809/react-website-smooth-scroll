@@ -5,7 +5,7 @@ import SigninPage from "./pages/SigninPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/signin" component={SigninPage} exact />
